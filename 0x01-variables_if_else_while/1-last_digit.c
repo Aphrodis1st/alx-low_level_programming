@@ -22,9 +22,6 @@ int main(void)
 	if (p == 0)
 		printf("last digit of %d is %d and is 0\n", n, p);
 	if (p < 6 && p != 0)
-        	printf("last digit of %d is %d and is less than 6 and not 0\n", n, p);
-	else
-		printf("last digit of %d is %d and is 5 and so cool\n", n, p);
-    
+		printf("last digit of %d is %d and is less than 6 and not 0\n", n, p);
     return 0;	
 }
