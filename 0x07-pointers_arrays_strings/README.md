@@ -3,7 +3,9 @@
 Hy, I'm glad that you made it here. You are absolutely at the right place.
 As we are going to look out for additional to pointers, arrays and strings. feel confortable it was made easy to look through.
 
-You have to remember that my codes for every project at low level programming repo, uses Betty style in each line of codes and usually uses  gcc -Wall -Werror -Wextra -pedantic -std=gnu89 for compilation process.
+You have to remember that my codes for every project at low level programming repo, 
+uses Betty style in each line of codes and usually uses  
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 for compilation process.
 
 No more than 5 functions per file, no printf or puts. Instead I use putchar.
 
@@ -21,7 +23,8 @@ Now let's look what made this thing
 
 	3. Write a function that locates a character in a string.
 
-		* Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
+		* Returns a pointer to the first occurrence of the character c in the string s, or NULL 
+		  if the character is not found
 
 	4. Write a function that gets the length of a prefix substring.
 
@@ -34,7 +37,8 @@ Now let's look what made this thing
 
 	6. Write a function that locates a substring.
 
-		* The _strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared
+		* The _strstr() function finds the first occurrence of the substring needle in the string haystack. 
+		  The terminating null bytes (\0) are not compared
 		* Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.
 
 	7. Write a function that prints the chessboard.
@@ -43,6 +47,16 @@ Now let's look what made this thing
 
 		* Format: see example
 		* You are allowed to use the standard library
+
+	9. Write a function that sets the value of a pointer to a char.
+
+	10. Create a file that contains the password for the crackme2 executable.
+
+		* Your file should contain the exact password, no new line, no extra space
+		* ltrace, ldd, gdb and objdump can help
+		* You may need to install the openssl library to run the crakme2 program: sudo apt install libssl-dev
+		* Edit the source list sudo nano /etc/apt/sources.list to add the following line: deb 
+		  http://security.ubuntu.com/ubuntu xenial-security main Then sudo apt update and sudo apt install libssl1.0.0
 
 
 		You can find me on the other social media:
