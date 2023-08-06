@@ -1,0 +1,51 @@
+# Static libraries in C programming
+
+Hy, I'm glad that you made it here. You are absolutely at the right place.
+As we are going to look out for additional to pointers, arrays and strings. feel confortable it was made easy to look through.
+
+You have to remember that my codes for every project at low level programming repo,
+uses Betty style in each line of codes and usually uses
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 for compilation process.
+
+
+Now let's look what made this thing
+
+	1. Write a program that prints its name, followed by a new line.
+
+		* If you rename the program, it will print the new name, without having to compile it again.
+		* You should not remove the path before the name of the program.
+
+	2. Write a program that prints the number of arguments passed into it.
+
+		* Your program should print a number, followed by a new line.
+
+	3. Write a program that prints all arguments it receives.
+
+		* All arguments should be printed, including the first one.
+		* Only print one argument per line, ending with a new line
+
+	4. Write a program that multiplies two numbers.
+
+		* Your program should print the result of the multiplication, followed by a new line.
+		* You can assume that the two numbers and result of the multiplication can be stored in an integer.
+		* If the program does not receive two arguments, your program should print Error, 
+		  followed by a new line, and return 1
+
+	5. Write a program that adds positive numbers.
+
+		* If no number is passed to the program, print 0, followed by a new line.
+		* If one of the number contains symbols that are not digits, print Error, followed by a new line, and return 1
+		* You can assume that numbers and the addition of all the numbers can be stored in an int
+
+
+
+
+ You can find me on the other social media:
+
+                        Linkedin: https://www.linkedin.com/in/aphrodis-uwineza-961079281/
+                        Twitter: https://twitter.com/AphrodisGarrix
+                        Instagram: https://www.instagram.com/aphrodisgarrix/
+
+
+Don't hesitate to reach out to me. and follow for more.
+
