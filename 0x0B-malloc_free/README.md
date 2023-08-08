@@ -48,6 +48,24 @@ Now let's look what made this thing
 		* Note that we will compile with your alloc_grid.c file. Make sure it compiles.
 
 
+	6. Write a function that concatenates all the arguments of your program.
+
+		* Prototype: char *argstostr(int ac, char **av);
+		* Returns NULL if ac == 0 or av == NULL
+		* Returns a pointer to a new string, or NULL if it fails
+		* Each argument should be followed by a \n in the new string
+
+	7. Write a function that splits a string into words.
+
+		* Prototype: char **strtow(char *str);
+		* The function returns a pointer to an array of strings (words)
+		* Each element of this array should contain a single word, null-terminated
+		* The last element of the returned array should be NULL
+		* Words are separated by spaces
+		* Returns NULL if str == NULL or str == ""
+		* If your function fails, it should return NULL
+
+
 
 		You can find me on the other social media:
 
