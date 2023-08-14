@@ -2,10 +2,12 @@
 #define _DOG_H_
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * struct dog - dog structure
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
  */
+
 
 struct dog
 {
