@@ -64,6 +64,6 @@
 
 ## Don't hasitate to reach out to me on my social links:
 
-			                        Linkedin: https://www.linkedin.com/in/aphrodis-uwineza-961079281/
+						Linkedin: https://www.linkedin.com/in/aphrodis-uwineza-961079281/
                     				Twitter: https://twitter.com/AphrodisGarrix
                     				Instagram: https://www.instagram.com/aphrodisgarrix/
