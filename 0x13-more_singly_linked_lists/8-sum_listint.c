@@ -5,21 +5,19 @@
  *
  * @head: pointer to the list
  *
- * Return: thee sum
+ * Return: the sum
  */
 
 int sum_listint(listint_t *head)
 {
-	int sum;
+	int sum = 0;
 
-	if (head == NULL)
-		return (0);
+	listint_t *let = head;
 
-	while (head != NULL)
+	while (let)
 	{
-		sum += head->n;
-
-		head = head->next;
+		sum += let->n;
+		let = let->next;
 	}
 
 	return (sum);
