@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file - function that will append text at the of file.
+ * append_text_to_file - function that will append text at the of file.
  *
  * @filename: A pointer to the name of the appended file.
  * @text_content: A string to be added to the file.
