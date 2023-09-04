@@ -12,15 +12,12 @@
 int create_file(const char *filename, char *text_content)
 
 {
-	int op;
-	int writ;
-
-	int n = 0;
+	int op, writ, n = 0;
 
 	if (filename == NULL)
 		return (-1);
 
-	if (text_content == NULL)
+	if (text_content != NULL)
 	{
 		for (n = 0; text_content[n];)
 			n++;
@@ -36,3 +33,4 @@ int create_file(const char *filename, char *text_content)
 
 	return (1);
 }
+
